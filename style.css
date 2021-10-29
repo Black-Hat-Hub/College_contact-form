@@ -20,17 +20,6 @@ img{
     font-size: 24px;
     font-weight: 700;
 }
-#dep1{
-    text-align: center;
-    color: darkblue;
-    border: darkblue 1px solid;
-    padding: 5px;
-    font-size: 24px;
-    position: relative;
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
-    top: 10px;
-}
 
 
 #detail{
@@ -142,3 +131,103 @@ img{
 }
 
 
+@media screen and (max-width:480px){
+    #title{
+        font-size:30px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:480px){
+    img{
+         width: 180px;
+    }
+}
+@media screen and (max-width:480px){
+    #dep1{
+         font-size: 20px;
+         margin: auto;
+         width: 80%;
+
+    }
+}
+/* @media screen and (max-width:480px){
+    #dep1{
+         font-size: 20px;
+         margin: auto;
+         width: 80%;
+    }
+} */
+@media screen and (max-width:480px){
+   #label{
+         width: 180px;
+         padding-bottom: 5px;
+         padding-top: 5px;
+         padding-left: 30px;
+    }
+}
+@media screen and (max-width:480px){
+    #name{
+          margin: auto;
+          width: 82%;
+    }
+}
+@media screen and (max-width:480px){
+    #branch{
+          margin: auto;
+          width: 82%;
+          left: 30px;
+    }
+}
+@media screen and (max-width:480px){
+    #gender{
+          margin: auto;
+          width: 82%;
+          left: 30px;
+          padding-bottom: 5px;
+    }
+}
+@media screen and (max-width:480px){
+    #email{
+          margin: auto;
+          width: 82%;
+          left: 30px;
+          padding-bottom: 2px;
+    }
+}
+@media screen and (max-width:480px){
+    #name-span,#gender-span,#branch-span,#email-span{
+        left: 30px;
+           
+    }
+}
+@media screen and (max-width:480px){
+    #deep1{
+           font-size: 12px;
+           margin-bottom: 10px;
+           position: relative;
+           width: 80%;
+           left: 35px;
+    }
+}
+@media screen and (max-width:480px){
+    #deep2{
+           font-size: 12px;
+           margin-bottom: 10px;
+           position: relative;
+            width: 80%;
+            left: 35px;
+    }
+}
+@media screen and (max-width:480px){
+    .select{
+            font-size: 15px;
+             width: 50%;
+    }
+}
+@media screen and (max-width:480px){
+    #option1,#option2,#option3,#option4{
+            font-size: 1px;
+             width: 50%;
+    }
+}
