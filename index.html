@@ -28,40 +28,43 @@ emailjs.init("user_8zY0fs9JffSVVaRusPM4k");
         <div>
             <img src="./Assets/Annamalai_University_logo.png" alt="" srcset="">
         </div>
-        <div id="detail" class="col-4">
+        <div id="detail" class="col-lg-4 col-sm-4">
             <h2 id="dep">Faculty of Engineering and Technology</h2>
         </div>
         <form action="javascript:sendmail()" method="get">
-        <div class="col-4" id="form">
+        <div class="col-lg-4 col-sm-12" id="form">
             <label id="label" for="">Name</label>
-            <input type="text" name="Name" id="name">
+            <input class="col-sm-10" type="text" name="Name" id="name">
             <span id="name-span"></span>
             <br>
             <label id="label" for="">Branch</label>
-            <input type="text" name="Name" id="branch">
+            <input class="col-sm-10" type="text" name="Name" id="branch">
+            <br>
             <span id="branch-span"></span>
             <br>
             <label id="label" for="">Gender</label>
-            <select name="gender" id="gender" required>
-                <option value="select">Select</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="others">Others</option>
+            <select class="select" name="gender" id="gender" required>
+                <option class="col-sm-10" id="option" value="select">Select</option>
+                <option class="col-sm-10" id="option1" value="male">Male</option>
+                <option class="col-sm-10" id="option2" value="female">Female</option>
+                <option class="col-sm-10" id="option3" value="others">Others</option>
             </select>
+            <br>
             <span id="gender-span"></span>
             <br>
             <label id="label" for="">Email</label>
-            <input type="email" name="Name" id="email">
+            <input class="col-sm-10" type="email" name="Name" id="email">
+            <br>
             <span id="email-span"></span>
-            <div id="btn1">
-            <button id="btn" type="button" onclick="sendmail()" value="Send Email">SUBMIT</button>
+            <div id="btn1" class="col-sm-12">
+            <button id="btn" onclick="submit()" value="Submit" type="submit">SUBMIT</button>
             </div>
         </form>
         </div>
-        <div id="bottom" class="col-6">
-        <h3 id="dep">Supplied by: A.U.F.E.T.S. Co-Op Stores, Annamalai Nagar</h3>
+        <div id="bottom" class="col-lg-6 col-sm-12">
+        <h3 id="deep1" style="position: relative; margin-bottom: 10px;">Supplied by: A.U.F.E.T.S. Co-Op Stores, Annamalai Nagar</h3>
 
-        <h3 id="dep">Manafacturer : Sri Gunavilas, Madurai Ph: 0452-2323120 <br>Email: <a href="mailto">gunavilas@yahoo.com</a><span style="padding-left:50px;">Since - 1963</span></h3>
+        <h3 id="deep2">Manafacturer : Sri Gunavilas, Madurai Ph: 0452-2323120 <br>Email: <a href="mailto">gunavilas@yahoo.com</a><span style="padding-left:50px;">Since - 1963</span></h3>
     </div>
     </section>
 </body>
